@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta property="og:title" content="<img src=x onerror=alert('XSS')>">
+  <meta property="og:description" content="Testing XSS via description <script>alert('XSS2')</script>">
+  <meta property="og:image" content="javascript:alert('XSS3')">
+</head>
+<body>
+  <h1>Metadata XSS Test</h1>
+</body>
+</html>
